@@ -1,0 +1,53 @@
+###############################################################
+# Terraform
+###############################################################
+
+# Diretório criado pelo terraform init
+.terraform/
+
+# Arquivos de estado
+*.tfstate
+*.tfstate.*
+
+# Plano de execução
+*.tfplan
+
+# Arquivos de crash
+crash.log
+crash.*.log
+
+# Arquivos de override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+###############################################################
+# Variáveis locais
+###############################################################
+
+*.tfvars
+*.tfvars.json
+
+###############################################################
+# Arquivo de bloqueio (opcional)
+###############################################################
+
+# Mantenha este arquivo versionado para garantir
+# a mesma versão dos providers entre os colaboradores.
+# Se preferir ignorá-lo, remova o comentário abaixo.
+
+#! .terraform.lock.hcl
+
+###############################################################
+# VS Code
+###############################################################
+
+.vscode/
+
+###############################################################
+# Sistema Operacional
+###############################################################
+
+.DS_Store
+Thumbs.db
