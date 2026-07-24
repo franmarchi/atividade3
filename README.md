@@ -210,6 +210,7 @@ yes
 
 O pipeline foi implementado utilizando GitHub Actions.
 
+
 Arquivo responsável:
 
 ```
